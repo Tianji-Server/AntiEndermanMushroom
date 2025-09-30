@@ -27,9 +27,6 @@ public final class AntiEndermanMushroom extends JavaPlugin implements Listener {
         if(!(event.getEntity() instanceof Enderman)){
             return;
         }
-        if(event.getEntity().getWorld().getEnvironment() == World.Environment.NORMAL){
-            return;
-        }
         if(isMushroom(event.getTo()) || isMushroom(event.getBlockData().getMaterial())){
             event.setCancelled(true);
             Enderman enderman = (Enderman) event.getEntity();
