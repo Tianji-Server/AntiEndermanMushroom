@@ -6,12 +6,12 @@
 
     <groupId>com.bilicraft</groupId>
     <artifactId>AntiEndermanMushroom</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>AntiEndermanMushroom</name>
 
-    <description>禁止末影人在非主世界放下蘑菇</description>
+    <description>禁止末影人放下蘑菇</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
