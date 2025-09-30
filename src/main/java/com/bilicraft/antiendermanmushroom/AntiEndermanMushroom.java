@@ -2,7 +2,6 @@ package com.bilicraft.antiendermanmushroom;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.World;
 import org.bukkit.entity.Enderman;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
